@@ -23,11 +23,11 @@ alias restart="sudo systemctl restart"
 alias status="sudo systemctl status"
 
 alias tmux="tmux -2"
-alias pc4='proxychains4'
+
 
 # pacman aliases and functions
 function Syu(){
-    sudo pacsync && sudo powerpill -Suw $@ && sudo pacman -Su $@ && sync
+    sudo powerpill -Suw $@ && sudo pacman -Su $@ && sync
     sudo pacman -Fy && sync
     pacman -Qtdq | ifne sudo pacman -Rcs -
     sync
@@ -56,6 +56,7 @@ alias Ssa="pikaur -Ssa"
 alias Sas="pikaur -Ssa"
 alias Sia="pikaur -Sai"
 alias Sai="pikaur -Sai"
+
 
 function _git_prompt() {
     local git_status="`git status -unormal 2>&1`"
