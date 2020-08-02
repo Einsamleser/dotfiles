@@ -3,6 +3,12 @@ POWERLINE_BINDINGS=/usr/share/powerline/bindings/
 powerline-daemon -q  # run powerline daemon
 source $POWERLINE_BINDINGS/zsh/powerline.zsh
 
+autoload -U compinit promptinit
+
+promptinit
+# prompt pure
+# compinit
+
 export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -48,13 +54,13 @@ function ranger-cd {
     rm -f -- "$tempfile"
 }
 
-HISTFILE=~/.zsh_history
+HISTFILE=~/.cache/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
 # pyenv
-export PATH="~/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# export PATH="~/.pyenv/bin:$PATH"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
