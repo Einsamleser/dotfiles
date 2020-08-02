@@ -26,13 +26,9 @@ alias tmux="tmux -2"
 
 
 # pacman aliases and functions
-function Syu(){
-    sudo powerpill -Suw $@ && sudo pacman -Su $@ && sync
-    sudo pacman -Fy && sync
-    pacman -Qtdq | ifne sudo pacman -Rcs -
-    sync
-}
 
+alias Syu="sudo pacman -Syu"
+alias Rns="sudo pacman -Rns"
 alias Rcs="sudo pacman -Rcs"
 alias Ss="pacman -Ss"
 alias Si="pacman -Si"
