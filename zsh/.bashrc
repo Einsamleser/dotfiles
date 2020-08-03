@@ -17,16 +17,18 @@ alias k="kde-open5"
 alias x="xdg-open"
 export LESS="-R -N"
 
+alias ~="cd ~"
+
 alias start="sudo systemctl start"
 alias stop="sudo systemctl stop"
 alias restart="sudo systemctl restart"
 alias status="sudo systemctl status"
 
-alias tmux="tmux -2"
+alias proxy="proxychains4"
 
+# pacman aliases
 
-# pacman aliases and functions
-
+alias Install="sudo pacman -S"
 alias Syu="sudo pacman -Syu"
 alias Rns="sudo pacman -Rns"
 alias Rcs="sudo pacman -Rcs"
