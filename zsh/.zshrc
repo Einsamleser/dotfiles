@@ -7,7 +7,7 @@ autoload -U compinit promptinit
 
 promptinit
 # prompt pure
-# compinit
+compinit
 
 export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
 export ZSH_AUTOSUGGEST_USE_ASYNC=true
