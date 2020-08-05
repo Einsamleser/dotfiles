@@ -58,9 +58,3 @@ HISTFILE=~/.cache/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
-
-# pyenv
-# export PATH="~/.pyenv/bin:$PATH"
-# eval "$(pyenv init -)"
-# eval "$(pyenv virtualenv-init -)"
-
