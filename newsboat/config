@@ -5,6 +5,7 @@ bind-key ^R reload-all
 bookmark-interactive yes
 display-article-progress yes
 download-full-page yes
+cleanup-on-quit no
 
 articlelist-title-format "Articles in feed '%T' (%u unread)"
 
