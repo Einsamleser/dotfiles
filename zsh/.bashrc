@@ -55,6 +55,7 @@ alias Sas="pikaur -Ssa"
 alias Sia="pikaur -Sai"
 alias Sai="pikaur -Sai"
 
+HISTFILE=~/.cache/bash_history
 
 function _git_prompt() {
     local git_status="`git status -unormal 2>&1`"
