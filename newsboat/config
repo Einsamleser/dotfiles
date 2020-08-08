@@ -1,11 +1,16 @@
 # https://newsboat.org/releases/2.12/docs/newsboat.html
 
 auto-reload yes
-bind-key ^R reload-all
 bookmark-interactive yes
 display-article-progress yes
 download-full-page yes
 cleanup-on-quit no
+
+# bind keys - vim style
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
 
 articlelist-title-format "Articles in feed '%T' (%u unread)"
 
@@ -23,11 +28,17 @@ openbrowser-and-mark-jumps-to-next-unread yes
 
 color background          white   black
 color listnormal          white   black
-color listfocus           yellow  blue   bold
-color listnormal_unread   cyan black
-color listfocus_unread    cyan blue   bold
-color info                yellow  blue   bold
-color article             white   black
+color listfocus           color19 white   bold
+color listnormal_unread   default default
+color listfocus_unread    black cyan   bold
+color info                default black
+color article             default   black
+
+
+# highlights
+highlight article "^(Title):.*$" color103 default
+highlight article "https?://[^ ]+" cyan default
+highlight article "\\[image\\ [0-9]+\\]" green default
 
 save-path "~/Documents/RSS_Articles/"
 cookie-cache "~/.config/newsboat/cookies.txt"
