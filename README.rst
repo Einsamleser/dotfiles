@@ -29,7 +29,7 @@ General
 Writing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Pelican(static site generator): https://blog.getpelican.com
-- Vscode: https://code.visualstudio.com
+- VS Code: https://code.visualstudio.com
 - LaTeX: https://wiki.archlinux.org/index.php/TeX_Live
 - Foxit Reader: https://aur.archlinux.org/packages/foxitreader
 - Notale: https://notable.app
