@@ -22,7 +22,8 @@ max-items 500
 keep-articles-days 99
 reload-threads 10
 
-browser "xdg-open"
+browser "xdg-open %u"
+macro , open-in-browser
 max-browser-tabs 3
 openbrowser-and-mark-jumps-to-next-unread yes
 
@@ -37,6 +38,7 @@ color article             default   black
 
 # highlights
 highlight article "^(Title):.*$" color103 default
+highlight article "^Author:.*"   color38 default bold
 highlight article "https?://[^ ]+" cyan default
 highlight article "\\[image\\ [0-9]+\\]" green default
 

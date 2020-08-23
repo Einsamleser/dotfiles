@@ -25,6 +25,7 @@ alias restart="sudo systemctl restart"
 alias status="sudo systemctl status"
 
 alias proxy="proxychains4"
+alias pmpv="proxychains4 mpv"
 
 # pacman aliases
 
