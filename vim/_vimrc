@@ -32,4 +32,5 @@ set title
 
 set history=1000
 
-set spell
+set noswapfile
+set nobackup
