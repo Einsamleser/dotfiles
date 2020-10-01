@@ -29,7 +29,7 @@ alias pmpv="proxychains4 mpv"
 
 # pacman aliases
 
-alias Install="sudo pacman -S"
+alias install="sudo pacman -S"
 alias Syu="sudo pacman -Syu"
 alias Rns="sudo pacman -Rns"
 alias Rcs="sudo pacman -Rcs"

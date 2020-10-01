@@ -59,3 +59,5 @@ HISTFILE=~/.cache/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+
+set backspace=indent,eol,start
