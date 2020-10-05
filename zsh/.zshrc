@@ -19,6 +19,7 @@ export PROMPT_EOL_MARK="%B%F{red}🔚"
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
+bindkey "\e[3~" delete-char
 
 [ -f $HOME/.bashrc ] && source $HOME/.bashrc
 [ -f $HOME/.zshrc.local ] && source $HOME/.zshrc.local

@@ -1,33 +1,31 @@
 let g:powerline_pycmd="py3"
 
-syntax on
+filetype plugin on
+set nocompatible
+autocmd FileType python set breakindentopt=shift:4
 
+syntax on
+set modelines=0
 set number
 set relativenumber
-set autoindent
-set shiftwidth=4
-set smarttab
-set tabstop=4
-
-set hlsearch
-set ignorecase
-set incsearch
-set smartcase
-
-set display+=lastline
-set encoding=utf-8
-set linebreak
-set scrolloff=1
-set wrap
-
 set ruler
 set visualbell
-set title
 
-set backupdir=~/.cache/vim
-set dir=~/.cache/vim
-set noswapfile
+set encoding=utf-8
 
-set history=1000
+set wrap
+set textwidth=79
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
 
-set spell
+set autoindent
+filetype plugin indent on
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+
