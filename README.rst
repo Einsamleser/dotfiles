@@ -25,6 +25,7 @@ General
 - Mpv: https://mpv.io 
 - Newsboat: https://newsboat.org
 - Rime: https://rime.im 
+- Qalculate!: https://qalculate.github.io
 
 Writing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,4 +50,5 @@ Terminal (Konsole)
   - mpv
   - vim
   - newsboat
-  - code
+  - rsync
+  - rclone
