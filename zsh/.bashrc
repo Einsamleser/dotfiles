@@ -23,6 +23,8 @@ alias start="sudo systemctl start"
 alias stop="sudo systemctl stop"
 alias restart="sudo systemctl restart"
 alias status="sudo systemctl status"
+alias enable="sudo systemctl enable"
+alias disable="sudo systemctl disable"
 
 alias proxy="proxychains4"
 alias pmpv="proxychains4 mpv"

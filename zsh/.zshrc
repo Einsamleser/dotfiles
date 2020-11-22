@@ -62,3 +62,6 @@ SAVEHIST=10000
 setopt appendhistory
 
 set backspace=indent,eol,start
+
+# Go environment
+export GOPATH=$HOME/Repos/Go/
