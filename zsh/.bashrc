@@ -26,6 +26,8 @@ alias status="sudo systemctl status"
 alias enable="sudo systemctl enable"
 alias disable="sudo systemctl disable"
 
+alias ytdl="youtube-dl"
+
 alias proxy="proxychains4"
 alias pmpv="proxychains4 mpv"
 
@@ -85,3 +87,7 @@ function _prompt_command() {
     PS1="`_git_prompt`"'\[\e[1;32m\]\u\[\e[m\]\[\e[0;32m\]@\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] '
 }
 PROMPT_COMMAND=_prompt_command
+
+# Proxy
+export http_proxy=http://127.0.0.1:7891
+export https_proxy=$http_proxy
