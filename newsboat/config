@@ -27,10 +27,10 @@ macro , open-in-browser
 max-browser-tabs 3
 openbrowser-and-mark-jumps-to-next-unread yes
 
-color listfocus white color111 bold
-color listnormal_unread white color153 bold
-color listfocus_unread white color111 bold
-color info white color152 bold
+color listfocus white color17 bold
+color listnormal_unread white color25 bold
+color listfocus_unread white color17 bold
+color info white color140 bold
 
 # highlights
 highlight article "^(Title):.*$" color103 default
