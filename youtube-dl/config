@@ -1,5 +1,5 @@
 # Save in ~/Videos
--o ~/Downloads/videos/%(title)s.%(ext)s
+-o ~/Downloads/ytdl/%(title)s.%(ext)s
 
 # Always extract audio
 # -x
@@ -15,8 +15,8 @@
 
 
 # Subtitle
---write-auto-sub
---all-subs
+# --write-auto-sub
+# --all-subs
 
 # Geo Restriction
 --geo-bypass

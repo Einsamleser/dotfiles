@@ -18,6 +18,7 @@ alias x="xdg-open"
 export LESS="-R -N"
 
 alias ~="cd ~"
+alias ..="cd .."
 
 alias start="sudo systemctl start"
 alias stop="sudo systemctl stop"
@@ -33,9 +34,11 @@ alias pmpv="proxychains4 mpv"
 
 # pacman aliases
 
+alias orphans="sudo pacman -Qtdq | sudo pacman -Rns -"
+alias pupdate="proxy sudo pacman -Syu"
 alias install="sudo pacman -S"
-alias Syu="sudo pacman -Syu"
-alias Rns="sudo pacman -Rns"
+alias update="sudo pacman -Syu"
+alias remove="sudo pacman -Rns"
 alias Rcs="sudo pacman -Rcs"
 alias Ss="pacman -Ss"
 alias Si="pacman -Si"
@@ -89,5 +92,5 @@ function _prompt_command() {
 PROMPT_COMMAND=_prompt_command
 
 # Proxy
-export http_proxy=http://127.0.0.1:7891
-export https_proxy=$http_proxy
+# export http_proxy=http://127.0.0.1:7891
+# export https_proxy=$http_proxy
