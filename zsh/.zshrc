@@ -68,3 +68,4 @@ export GOPATH=$HOME/Repos/Go/
 
 # Mount NAVI
 # sshfs lain@192.168.0.108:/srv/nginx/ ~/NAVI
+

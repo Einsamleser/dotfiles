@@ -35,9 +35,9 @@ alias pmpv="proxychains4 mpv"
 # pacman aliases
 
 alias orphans="sudo pacman -Qtdq | sudo pacman -Rns -"
-alias pupdate="proxy sudo pacman -Syu"
+alias pupgrade="proxy sudo pacman -Syu"
 alias install="sudo pacman -S"
-alias update="sudo pacman -Syu"
+alias upgrade="sudo pacman -Syu"
 alias remove="sudo pacman -Rns"
 alias Rcs="sudo pacman -Rcs"
 alias Ss="pacman -Ss"
