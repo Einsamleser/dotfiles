@@ -1,3 +1,6 @@
 [submodule "vim/site/autoload/plugged/auto-pairs"]
 	path = vim/site/autoload/plugged/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "vim/site/autoload/plugged/vim-airline"]
+	path = vim/site/autoload/plugged/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
