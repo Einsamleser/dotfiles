@@ -1,0 +1,3 @@
+[submodule "vim/site/autoload/plugged/auto-pairs"]
+	path = vim/site/autoload/plugged/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
