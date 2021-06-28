@@ -4,3 +4,6 @@
 [submodule "vim/site/autoload/plugged/vim-airline"]
 	path = vim/site/autoload/plugged/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim/site/autoload/plugged/nerdcommenter"]
+	path = vim/site/autoload/plugged/nerdcommenter
+	url = git@github.com:preservim/nerdcommenter.git
