@@ -12,7 +12,7 @@ call plug#begin('~/.local/share/nvim/site/autoload/plugged')
     Plug 'vim-airline/vim-airline'
 
     " Python Linting & Fixing
-    Plug 'dense-analysis/ale'
+    " Plug 'dense-analysis/ale'
 
     " Python
     Plug 'klen/python-mode'
